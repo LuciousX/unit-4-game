@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 24px;
+}
+
+.crystal-box{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.crystal{
+    height: 200px;
+    width: 200px;
+    transition: .5s;
+
+}
+.crystal:hover{
+    transform: scale(1.05);
+}
+span{
+    padding:50px;
+}
+
